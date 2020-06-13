@@ -2,10 +2,25 @@
   "name": "kanban-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SenecaX/kanban-backend.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SenecaX/kanban-backend/issues"
+  },
+  "homepage": "https://github.com/SenecaX/kanban-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
