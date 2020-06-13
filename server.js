@@ -14,7 +14,8 @@ app.get("/hello", (req, res) => {
 //db connection
 mongoose
   .connect(
-    "mongodb+srv://admin:admin@kanban-qb1vl.mongodb.net/kanban?retryWrites=true&w=majority",
+    // "mongodb+srv://admin:admin@kanban-qb1vl.mongodb.net/kanban?retryWrites=true&w=majority",
+    'mongodb://mongo:27017/kanban-backend'
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
